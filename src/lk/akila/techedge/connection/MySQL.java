@@ -13,8 +13,8 @@ import java.sql.SQLException;
 public class MySQL {
     
     private static Connection connection;
-    private static final String user = "root";
-    private static final String password = "akila@2005";
+    private static final String user = "username";
+    private static final String password = "password";
     private static final String DB_name = "techedge" ;
     
     public static Connection getConnection() throws SQLException{
